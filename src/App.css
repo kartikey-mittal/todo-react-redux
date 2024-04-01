@@ -1,38 +1,41 @@
+/* App.css */
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+  height: 100vh;
+  background-color: 'yellow';
+}
+input::placeholder {
+  color: '#9191ad';
+ }
+.task-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: blue; /* Default background color */
 }
 
-.App-link {
-  color: #61dafb;
+.task-card.completed {
+  background-color: green; /* Background color when task is completed */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task-card span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.task-icon {
+  cursor: pointer;
+  margin-left: 5px;
 }
