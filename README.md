@@ -3,6 +3,9 @@ https://todo-redux.pages.dev/
 
 # Screenshot
 ![Screenshot](https://firebasestorage.googleapis.com/v0/b/snipify-bda1e.appspot.com/o/images%2FScreenshot%202024-04-01%20204720.png?alt=media&token=22dd901d-15e5-4391-a13b-c753fb4fdcfd)
+
+## Responsive Screenshot
+![Screenshot](https://firebasestorage.googleapis.com/v0/b/snipify-bda1e.appspot.com/o/images%2FScreenshot%202024-04-01%20205246.png?alt=media&token=3009b10e-1ddf-4618-b36a-4a9712e14bac)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
